@@ -43,6 +43,9 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "posts"
+    },
+    "like": {
+      "type": "integer"
     }
   }
 }
